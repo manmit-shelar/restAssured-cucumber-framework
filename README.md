@@ -14,7 +14,7 @@
   Run test by setting correct tags in AllTest.java and by setting correct environment in Run Configuration.
 
 02. From Command Prompt
-  mvn clean install -Denv=api -Dcucumber.options="--tags @tagName"
+  mvn clean install -Denv=envName -Dcucumber.options="--tags @tagName"
   -Denv = Name of environment profile defined in env.conf.
   -Dcucumber.options = tags to be executed. Need to select respective tags from feature file.
 
@@ -25,3 +25,12 @@
 
 02. API log summary
   - runtime.log provides details of API calls at scenario level.
+
+# Automating practice APIs
+ - Best Buy API Playground provides free E-Commerce Rest APIs to practice.
+ -  Best Buy API Playground was locally deployed for practice.
+ - In the sample project, 'Store' APIs are automated.
+ 
+ API Automated
+ ![image](https://user-images.githubusercontent.com/19619344/134340865-99eb754a-083a-40ed-94b3-017b65781efe.png)
+
