@@ -1,0 +1,670 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Multiple records are returned in response of Get Stores API",
+        "description": "",
+        "id": "stores-api;multiple-records-are-returned-in-response-of-get-stores-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 454700195,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Request for getting Stores is formed",
+            "match": {
+              "location": "StoresStepDefs.request_for_getting_Stores_is_formed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 634662778,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Get call is made for Stores API",
+            "match": {
+              "location": "StoresStepDefs.get_call_is_made_for_Stores_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13908372,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Multiple records are received in response of Stores API",
+            "match": {
+              "location": "StoresStepDefs.multiple_records_are_received_in_response_of_Stores_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@getAllStores"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Invalid parameter is passed for Get Specific Store API",
+        "description": "",
+        "id": "stores-api;invalid-parameter-is-passed-for-get-specific-store-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1120987,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Request for getting specific Store is formed with invalid parameter",
+            "match": {
+              "location": "StoresStepDefs.request_for_getting_specific_Store_is_formed_with_invalid_parameter()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12897612,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Get call is made for fetching specific Store API",
+            "match": {
+              "location": "StoresStepDefs.get_call_is_made_for_fetching_specific_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318718426,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error response for invalid parameter should be received for Store API",
+            "match": {
+              "location": "StoresStepDefs.error_response_for_invalid_parameter_should_be_received_for_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@getSpecificStores"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Non existing store id is passed to Get Specific Store API",
+        "description": "",
+        "id": "stores-api;non-existing-store-id-is-passed-to-get-specific-store-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1115434,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Request for getting specific Store is formed with non existing store id",
+            "match": {
+              "location": "StoresStepDefs.request_for_getting_specific_Store_is_formed_with_non_existing_store_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12573421,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Get call is made for fetching specific Store API",
+            "match": {
+              "location": "StoresStepDefs.get_call_is_made_for_fetching_specific_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19369096,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error response for non existing store id should be received for Store API",
+            "match": {
+              "location": "StoresStepDefs.error_response_for_non_existing_store_id_should_be_received_for_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@getSpecificStores"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Get details of the Specific Store",
+        "description": "",
+        "id": "stores-api;get-details-of-the-specific-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1919332,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Request for getting specific Store is formed",
+            "match": {
+              "location": "StoresStepDefs.request_for_getting_specific_Store_is_formed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16369225,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Get call is made for fetching specific Store API",
+            "match": {
+              "location": "StoresStepDefs.get_call_is_made_for_fetching_specific_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34706018,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Details of specific store should be received in response of Get Specific Store API",
+            "match": {
+              "location": "StoresStepDefs.details_of_specific_store_should_be_received_in_response_of_Get_Specific_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@getSpecificStores"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Mandatory parameters are not passed for Create Store API",
+        "description": "",
+        "id": "stores-api;mandatory-parameters-are-not-passed-for-create-store-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1263584,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Request for Post Store is formed without mandatory parameters",
+            "match": {
+              "location": "StoresStepDefs.request_for_Post_Store_is_formed_without_mandatory_parameters()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26575385,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Post call is made for Store API",
+            "match": {
+              "location": "StoresStepDefs.post_call_is_made_for_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22996650,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Error response for missing mandatory parameters should be received for Post Store API",
+            "match": {
+              "location": "StoresStepDefs.error_response_for_missing_mandatory_parameters_should_be_received_for_Post_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@postStore"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "New store is created successfully",
+        "description": "",
+        "id": "stores-api;new-store-is-created-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1134227,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Request for Post Store is formed",
+            "match": {
+              "location": "StoresStepDefs.request_for_Post_Store_is_formed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16145225,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Post call is made for Store API",
+            "match": {
+              "location": "StoresStepDefs.post_call_is_made_for_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 605107,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Success response for new store created should be received for Post Store API",
+            "match": {
+              "location": "StoresStepDefs.success_response_for_new_store_created_should_be_received_for_Post_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@postStore"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Mandatory parameters are not passed for Put Store API",
+        "description": "",
+        "id": "stores-api;mandatory-parameters-are-not-passed-for-put-store-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22422287,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Request for Put Store is formed without mandatory parameters",
+            "match": {
+              "location": "StoresStepDefs.request_for_Put_Store_is_formed_without_mandatory_parameters()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14984486,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Put call is made for Store API",
+            "match": {
+              "location": "StoresStepDefs.put_call_is_made_for_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22249029,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Error response for missing mandatory parameters should be received for Put Store API",
+            "match": {
+              "location": "StoresStepDefs.error_response_for_missing_mandatory_parameters_should_be_received_for_Put_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@putStore"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "Non existing store id is passed for Put Store API",
+        "description": "",
+        "id": "stores-api;non-existing-store-id-is-passed-for-put-store-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003143,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Request for Put Store is formed with non existing store id",
+            "match": {
+              "location": "StoresStepDefs.request_for_Put_Store_is_formed_with_non_existing_store_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11497658,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Put call is made for Store API",
+            "match": {
+              "location": "StoresStepDefs.put_call_is_made_for_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16386950,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Error response for non existing store id should be received for Put Store API",
+            "match": {
+              "location": "StoresStepDefs.error_response_for_non_existing_store_id_should_be_received_for_Put_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@putStore"
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "Existing store is updated successfully",
+        "description": "",
+        "id": "stores-api;existing-store-is-updated-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25846546,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Request for Put Store is formed",
+            "match": {
+              "location": "StoresStepDefs.request_for_Put_Store_is_formed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14717373,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Put call is made for Store API",
+            "match": {
+              "location": "StoresStepDefs.put_call_is_made_for_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 607660,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Success response for store updated should be received for Put Store API",
+            "match": {
+              "location": "StoresStepDefs.success_response_for_store_updated_should_be_received_for_Put_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@putStore"
+          }
+        ]
+      },
+      {
+        "line": 73,
+        "name": "Invalid parameter is passed for Delete Store API",
+        "description": "",
+        "id": "stores-api;invalid-parameter-is-passed-for-delete-store-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 742139,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Request for deleting specific Store is formed with invalid parameter",
+            "match": {
+              "location": "StoresStepDefs.request_for_deleting_specific_Store_is_formed_with_invalid_parameter()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9437152,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Delete call is made for deleting specific Store API",
+            "match": {
+              "location": "StoresStepDefs.delete_call_is_made_for_deleting_specific_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15888170,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Error response for invalid parameter should be received for Delete Store API",
+            "match": {
+              "location": "StoresStepDefs.error_response_for_invalid_parameter_should_be_received_for_Delete_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@deleteStore"
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "Non existing store id is passed to Delete Specific Store API",
+        "description": "",
+        "id": "stores-api;non-existing-store-id-is-passed-to-delete-specific-store-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 887435,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Request for deleting specific Store is formed with non existing store id",
+            "match": {
+              "location": "StoresStepDefs.request_for_deleting_specific_Store_is_formed_with_non_existing_store_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7939193,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Delete call is made for deleting specific Store API",
+            "match": {
+              "location": "StoresStepDefs.delete_call_is_made_for_deleting_specific_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15180041,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Error response for non existing store id should be received for Delete Store API",
+            "match": {
+              "location": "StoresStepDefs.error_response_for_non_existing_store_id_should_be_received_for_Delete_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@deleteStore"
+          }
+        ]
+      },
+      {
+        "line": 87,
+        "name": "Delete a specific Store",
+        "description": "",
+        "id": "stores-api;delete-a-specific-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18530539,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Request for deleting specific Store is formed",
+            "match": {
+              "location": "StoresStepDefs.request_for_deleting_specific_Store_is_formed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8690843,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Delete call is made for deleting specific Store API",
+            "match": {
+              "location": "StoresStepDefs.delete_call_is_made_for_deleting_specific_Store_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 531385,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Delete success response should be received in response of Delete Store API",
+            "match": {
+              "location": "StoresStepDefs.delete_success_response_should_be_received_in_response_of_Delete_Store_API()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stores"
+          },
+          {
+            "name": "@deleteStore"
+          }
+        ]
+      }
+    ],
+    "name": "Stores API",
+    "description": "  As a admin user\n  I want to access stores information\n  So that i can view, add, update, delete store information",
+    "id": "stores-api",
+    "keyword": "Feature",
+    "uri": "file:/Users/cafis_mac_1/restassured-cucumber-framework/src/test/resources/features/Stores.feature",
+    "tags": [
+      {
+        "name": "@stores",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
