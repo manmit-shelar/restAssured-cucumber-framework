@@ -10,13 +10,14 @@
   5. log4j
 
 # Running the test
-01. From Eclipce 
+01. From Eclipce :  
   Run test by setting correct tags in AllTest.java and by setting correct environment in Run Configuration.
 
-02. From Command Prompt
-  mvn clean install -Denv=envName -Dcucumber.options="--tags @tagName"
-  -Denv = Name of environment profile defined in env.conf.
+01. From Command Prompt :  
+  mvn clean install -Denv=envName -Dcucumber.options="--tags @tagName"  
+  -Denv = Name of environment profile defined in env.conf.  
   -Dcucumber.options = tags to be executed. Need to select respective tags from feature file.
+  
 
 # Reporting
 01. Donut Report
@@ -26,7 +27,7 @@
 02. API log summary
   - runtime.log provides details of API calls at scenario level.
 
-# Automating practice APIs
+# Automating Practice APIs
  - Best Buy API Playground provides free E-Commerce Rest APIs to practice.
  -  Best Buy API Playground was locally deployed for practice.
  - In the sample project, 'Store' APIs are automated.
