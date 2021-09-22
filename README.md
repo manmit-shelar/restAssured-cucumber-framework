@@ -21,11 +21,11 @@
 
 # Reporting
 01. Donut Report
-  - Cinnamon provides out the box pretty, summarized Donut report.
-  - After every sucessful execution report will get generated at target/donut.
+    - Cinnamon provides out the box pretty, summarized Donut report.
+    - After every sucessful execution report will get generated at target/donut.
 
 02. API log summary
-  - runtime.log provides details of API calls at scenario level.
+    - runtime.log provides details of API calls at scenario level.
 
 # Automating Practice APIs
  - Best Buy API Playground provides free E-Commerce Rest APIs to practice.
